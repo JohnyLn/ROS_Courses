@@ -1,0 +1,5 @@
+<launch>
+    <node name="time" pkg="pkg1" type="timepub.py" respawn="true"/> 
+
+    <node name="convertir" pkg="pkg1" type="convertir.py" respawn="true"/>
+</launch>

@@ -1,0 +1,2 @@
+pkg1
+-DCATKIN_DEVEL_PREFIX=/home/jlin/Documents/ROS_Courses/course/devel -DCMAKE_INSTALL_PREFIX=/home/jlin/Documents/ROS_Courses/course/install -G Unix Makefiles
