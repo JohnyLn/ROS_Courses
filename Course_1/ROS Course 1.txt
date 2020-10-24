@@ -1,0 +1,56 @@
+1) C est quoi ROS 
+2) Mise en place d'une architecture ROS premiers scripts
+3) Turtlebot
+4) Turtlebot 2 ?
+
+Robot ?
+Capteurs 
+Moteurs / Actionneurs
+Puissance de calcul
+
+Choix du langage en programmation
+- Programmation bas niveau (traiter du binaire/les signaux logiques)
+- Programmer en haut niveau (orienté objet) (très modulable -> pour intégrer dans plusieurs structures
+-> Modifications du class
+- Communicaiton plus Multi processus -> (camera, capteurs...)
+- Gestion de la mémoire (C++, recupère la mémoire dans des buffer, supprimer...)
+- Simplicité du langage d'écriture -> Prototypage)
+- Langage Interprétable (cross compilation)
+- Librairies +++
+- Support actif -> Communauté active (stackoverflow)
+
+Python et C++
+
+ROS -> Meta système d'exploitation -> Assurer la communication entre vos programmes 
+Création de cannaux de communication -> envoie de message
+
+
+Master Node Topic (et services)
+
+Topic -> Les topics sont typés -> un seul type traité et un seul message
+
+Message ->nom -> donnée (entité) -> taille
+Créer votre propre message perso ( int, int , float, char*, etc..) -> message dvb par exemple
+Ou seulement un type de message (int float char, string )
+Défini à la création du channel (topic)
+
+
+Master - c'est lui qui va créer lancer les nodes et les channels
+
+Publisher 
+Subscriber
+
+Une node peut etre un ou l'autre ou les autres et subscribeur de plusieurs channel
+
+
+
+
+
+
+
+
+
+
+
+
+
